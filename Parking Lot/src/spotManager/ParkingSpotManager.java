@@ -1,3 +1,10 @@
+package spotManager;
+
+import java.util.List;
+import java.util.stream.Stream;
+
+import static java.util.stream.Collectors.toList;
+
 public abstract class ParkingSpotManager {
     protected final List<ParkingSpot> parkingSpots;
     protected final ParkingSpotLookupStrategy lookupStrategy;

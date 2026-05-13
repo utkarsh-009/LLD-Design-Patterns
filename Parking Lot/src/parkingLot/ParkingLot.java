@@ -1,7 +1,7 @@
 public class ParkingLot {
     private final ParkingBuilding building;
     private final EntryGate entryGate;
-    privagte final ExitGate exitGate;
+    private final ExitGate exitGate;
 
     public ParkingLot(ParkingBuilding building, EntryGate entryGate, ExitGate exitGate) {
         this.building = building;

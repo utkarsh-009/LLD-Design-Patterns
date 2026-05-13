@@ -26,6 +26,10 @@ public class ParkingLevel {
         if (manager == null) {
             throw new IllegalArgumentException("Vehicle Parking Not Supported for Vehicle Type: " + vehicleType);
         }
-        .releaseSpot();
+        manager.releaseSpot();
+    }
+
+    public int getLevelNumber() {
+        return levelNumber;
     }
 }

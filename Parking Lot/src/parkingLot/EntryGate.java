@@ -1,5 +1,10 @@
+package parkingLot;
+
+import Entity.Vehicle;
+import Ticket;
+
 public class EntryGate {
-    Ticket enter(ParkingBuilding building, Vehicle vehicle) {
-        return building.allocate(vehicle); 
+    public Ticket enter(ParkingBuilding building, Vehicle vehicle) {
+        return building.allocate(vehicle);
     }
 }

@@ -1,4 +1,4 @@
-public class FixedPriceStrategy {
+public class FixedPriceStrategy implements PricingStrategy {
     private final double fixedPrice;
 
     public FixedPriceStrategy(double fixedPrice) {
