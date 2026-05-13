@@ -1,0 +1,5 @@
+Entity ->  Parking Spot Manager -> Lookup Strategy
+
+Parking Lot => Entry Gate; Exity Gate; 
+Parking Bulding => Lvl1; Lvl2,.. 
+Parking Lvl => Lvl1 -> 2 wheeler spot manager; 4 wheeler spot manager, Lvl2 -> 4 wheeler spot manager
