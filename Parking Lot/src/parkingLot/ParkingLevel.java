@@ -1,4 +1,10 @@
-import com.spotManager.ParkingSpotManager;
+package parkingLot;
+
+import Entity.ParkingSpot;
+import enums.VehicleType;
+import spotManager.ParkingSpotManager;
+
+import java.util.Map;
 
 public class ParkingLevel {
     private int levelNumber;
@@ -26,7 +32,7 @@ public class ParkingLevel {
         if (manager == null) {
             throw new IllegalArgumentException("Vehicle Parking Not Supported for Vehicle Type: " + vehicleType);
         }
-        manager.releaseSpot();
+        manager.unpark(parkingSpot);
     }
 
     public int getLevelNumber() {

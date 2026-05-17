@@ -1,22 +1,28 @@
-package com.parkinglot.Entity;
+package Entity;
 
 public class ParkingSpot {
-    String spotId;
-    boolean free;
+    private String spotId;
+    private boolean free;
 
-    boolean isFree() {
+    public ParkingSpot(String spotId) {
+        this.spotId = spotId;
+        this.free = true;
+    }
+
+
+    public boolean isFree() {
         return free;
     }
 
-    String getSpotId() {
+    public String getSpotId() {
         return spotId;
     }
 
-    void occupySpot() {
+    public void occupySpot() {
         free = false;
     }
 
-    void releaseSpot() {
+    public void releaseSpot() {
         free = true;
     }
 }

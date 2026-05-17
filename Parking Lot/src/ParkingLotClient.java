@@ -53,7 +53,7 @@ public class ParkingLotClient {
 
         ParkingLot parkingLot = new ParkingLot(
             parkingBuilding,
-            new EntranceGate(),
+            new EntryGate(),
             new ExitGate(new CostComputation(new FixedPricingStrategy()))
         );
 

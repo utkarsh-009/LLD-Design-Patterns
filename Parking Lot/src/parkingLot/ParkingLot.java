@@ -1,3 +1,9 @@
+package parkingLot;
+
+import Entity.Ticket;
+import Entity.Vehicle;
+import payment.Payment;
+
 public class ParkingLot {
     private final ParkingBuilding building;
     private final EntryGate entryGate;

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00835210-f18d-4685-b94b-62ccf85610ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/bin/Entity/ParkingSpot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Entity/ParkingSpot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Entity/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Entity/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LookupStrategy/NearestLookupStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LookupStrategy/NearestLookupStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LookupStrategy/ParkingSpotLookupStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LookupStrategy/ParkingSpotLookupStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LookupStrategy/RandomLookupStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LookupStrategy/RandomLookupStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ParkingLotClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ParkingLotClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/Entity/ParkingSpot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/Entity/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/Entity/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/ParkingLotClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/enums/ParkingSpotType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/enums/VehicleType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/exception/InvalidVehicleException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/exception/ParkingFullException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/exception/ParkingLotException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/exception/PaymentFailedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/factory/ParkingSpotManagerFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/factory/ParkingSpotManagerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/factory/PaymentFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/gate/EntryGate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/gate/ExitGate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/gate/Gate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/model/DisplayBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/model/ParkingFloor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/model/ParkingSpot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/model/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/model/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/payment/CardPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/payment/CashPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/payment/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/payment/UPIPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/service/CostCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/service/FourWheelerSpotManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/service/ParkingLotManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/service/ParkingSpotManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/service/TwoWheelerSpotManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/service/VehicleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/strategy/FixedPricingStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/strategy/HourlyPricingStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/strategy/NearestLookupStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/strategy/ParkingSpotLookupStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/strategy/PricingStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/parkinglot/strategy/RandomLookupStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/parkingLot/EntryGate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/parkingLot/EntryGate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/parkingLot/ExitGate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/parkingLot/ExitGate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/parkingLot/ParkingBuilding.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/parkingLot/ParkingBuilding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/parkingLot/ParkingLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/parkingLot/ParkingLevel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/parkingLot/ParkingLot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/parkingLot/ParkingLot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/payment/CashPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/payment/CashPayment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/payment/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/payment/Payment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/payment/UPIPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/payment/UPIPayment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pricing/CostComputation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pricing/CostComputation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pricing/FixedPriceStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pricing/FixedPriceStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pricing/FixedPricingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pricing/FixedPricingStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pricing/PricingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pricing/PricingStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotManager/FourWheelerSpotManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotManager/FourWheelerSpotManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotManager/ParkingSpotManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotManager/ParkingSpotManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spotManager/TwoWheelerSpotManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spotManager/TwoWheelerSpotManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LookupStrategy/NearestLookupStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LookupStrategy/NearestLookupStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LookupStrategy/ParkingSpotLookupStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LookupStrategy/ParkingSpotLookupStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LookupStrategy/RandomLookupStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LookupStrategy/RandomLookupStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParkingLotClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLotClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/Entity/ParkingSpot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/Entity/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/ParkingLotClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/enums/ParkingSpotType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/enums/VehicleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/exception/InvalidVehicleException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/exception/ParkingFullException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/exception/ParkingLotException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/exception/PaymentFailedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/factory/ParkingSpotManagerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/factory/PaymentFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/gate/EntryGate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/gate/ExitGate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/gate/Gate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/model/DisplayBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/model/ParkingFloor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/model/ParkingSpot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/model/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/payment/CardPayment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/payment/CashPayment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/payment/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/payment/UPIPayment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/service/CostCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/service/FourWheelerSpotManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/service/ParkingLotManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/service/ParkingSpotManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/service/TwoWheelerSpotManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/service/VehicleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/strategy/FixedPricingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/strategy/HourlyPricingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/strategy/NearestLookupStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/strategy/ParkingSpotLookupStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/strategy/PricingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parkinglot/strategy/RandomLookupStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parkingLot/EntryGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parkingLot/EntryGate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parkingLot/ExitGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parkingLot/ExitGate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parkingLot/ParkingBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parkingLot/ParkingBuilding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parkingLot/ParkingLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parkingLot/ParkingLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parkingLot/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parkingLot/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payment/CashPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/payment/CashPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payment/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/payment/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payment/UPIPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/payment/UPIPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pricing/CostComputation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pricing/CostComputation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pricing/FixedPriceStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pricing/FixedPriceStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pricing/FixedPricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pricing/FixedPricingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pricing/PricingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pricing/PricingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotManager/FourWheelerSpotManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotManager/FourWheelerSpotManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotManager/ParkingSpotManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotManager/ParkingSpotManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spotManager/TwoWheelerSpotManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spotManager/TwoWheelerSpotManager.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3DqCX4ytbH9hO1l2lPhp6GtkXOm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ParkingLotClient.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/utkarsh09/Desktop/Learning/LLD/Parking Lot"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00835210-f18d-4685-b94b-62ccf85610ea" name="Changes" comment="" />
+      <created>1779000248424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779000248424</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

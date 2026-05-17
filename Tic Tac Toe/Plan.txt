@@ -1,0 +1,5 @@
+Objects Involved:
+
+- Playing pieces: X/O, $/@ 
+- Board: n*n
+- Player: P1/P2

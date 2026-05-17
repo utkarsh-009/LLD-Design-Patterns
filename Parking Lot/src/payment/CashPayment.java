@@ -1,7 +1,11 @@
+package payment;
+
+import Entity.Ticket;
+
 public class CashPayment implements Payment {
     @Override
     public void pay(Ticket ticket) {
-        System.out.println("Processing cash payment for ticket: " + ticket.getId());
+        System.out.println("Processing cash payment for ticket: " + ticket.getTicketId());
     }
 
     @Override

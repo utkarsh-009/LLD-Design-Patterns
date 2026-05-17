@@ -1,6 +1,6 @@
-package com.parkinglot.Entity;
+package Entity;
 
-import com.parkinglot.enums.VehicleType;
+import enums.VehicleType;
 
 public class Vehicle {
     private String vehicleNum;

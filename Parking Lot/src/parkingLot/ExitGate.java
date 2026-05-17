@@ -1,3 +1,9 @@
+package parkingLot;
+
+import Entity.Ticket;
+import payment.Payment;
+import pricing.CostComputation;
+
 public class ExitGate {
 
     private final CostComputation costComputation;
@@ -14,10 +20,10 @@ public class ExitGate {
             throw new RuntimeException("Payment Failed. Cannot exit the parking lot.");
         } 
         building.release(ticket);
-        System.out.println("Exit Completed for Vehicle: " + ticket.getVehicle().getLicensePlate() + ". Amount Paid: " + amount);
+        System.out.println("Exit Completed for Vehicle: " + ticket.getVehicle().getVehicleNum() + ". Amount Paid: " + amount);
     }
 
     private double calculateCost(Ticket ticket) {
-        return costComputation.computeCost(duration);
+        return costComputation.computeCost(ticket);
     }
 }

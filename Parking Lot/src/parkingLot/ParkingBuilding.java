@@ -1,7 +1,18 @@
+package parkingLot;
+
+import Entity.ParkingSpot;
+import Entity.Ticket;
+import Entity.Vehicle;
+import pricing.CostComputation;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+
 public class ParkingBuilding {
     private final List<ParkingLevel> levels;
 
-    public ParkingBuilding(List<ParkingLevel> levels, CostComputationStrategy costComputationStrategy) {
+    public ParkingBuilding(List<ParkingLevel> levels, CostComputation costComputationStrategy) {
         this.levels = levels;
     }
  
@@ -11,8 +22,8 @@ public class ParkingBuilding {
             if (level.hasAvailability(vehicle.getVehicleType())) {
                 ParkingSpot parkingSpot = level.park(vehicle.getVehicleType());
                 if (parkingSpot != null) {
-                    Ticket ticket = new Ticket(vehicle, parkingSpot, level);
-                    System.out.println("Allocated Parking Spot: " + parkingSpot.getSpotNumber() + " at Level: " + level.getLevelNumber());
+                    Ticket ticket = new Ticket(vehicle.getVehicleNum(), vehicle, parkingSpot, LocalDateTime.now());
+                    System.out.println("Allocated Parking Spot: " + parkingSpot.getSpotId() + " at Level: " + level.getLevelNumber());
                     return ticket;
                 }
             }
@@ -22,9 +33,7 @@ public class ParkingBuilding {
     
     void release(Ticket ticket) {
         if (ticket != null) {
-            ticket.getLevel()
-            .unpark(
-                ticket.getVehicle().getVehicleType(), ticket.getParkingSpot());
+            ticket.getParkingSpot().releaseSpot();
         }
     }
 

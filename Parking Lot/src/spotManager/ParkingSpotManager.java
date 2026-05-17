@@ -1,9 +1,10 @@
 package spotManager;
 
-import java.util.List;
-import java.util.stream.Stream;
+import Entity.ParkingSpot;
+import LookupStrategy.ParkingSpotLookupStrategy;
 
-import static java.util.stream.Collectors.toList;
+import java.util.List;
+import java.util.concurrent.locks.ReentrantLock;
 
 public abstract class ParkingSpotManager {
     protected final List<ParkingSpot> parkingSpots;
@@ -33,7 +34,7 @@ public abstract class ParkingSpotManager {
     public void unpark(ParkingSpot parkingSpot) {
         lock.lock();
         try {
-            parkingSpot.freeSpot();
+            parkingSpot.releaseSpot();
         } 
         finally {
             lock.unlock();

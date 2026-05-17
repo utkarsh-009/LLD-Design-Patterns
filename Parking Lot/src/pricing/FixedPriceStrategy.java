@@ -1,3 +1,7 @@
+package pricing;
+
+import Entity.Ticket;
+
 public class FixedPriceStrategy implements PricingStrategy {
     private final double fixedPrice;
 

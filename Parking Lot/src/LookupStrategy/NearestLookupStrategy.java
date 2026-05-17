@@ -1,3 +1,9 @@
+package LookupStrategy;
+
+import Entity.ParkingSpot;
+
+import java.util.List;
+
 public class NearestLookupStrategy implements ParkingSpotLookupStrategy {
     
     @Override

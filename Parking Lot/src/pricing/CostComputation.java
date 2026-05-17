@@ -1,3 +1,7 @@
+package pricing;
+
+import Entity.Ticket;
+
 public class CostComputation {
     private final PricingStrategy pricingStrategy;
 

@@ -1,3 +1,10 @@
+package spotManager;
+
+import Entity.ParkingSpot;
+import LookupStrategy.ParkingSpotLookupStrategy;
+
+import java.util.List;
+
 /**
  * 
  * 1. Maintains list of two wheeler parking spots only.
